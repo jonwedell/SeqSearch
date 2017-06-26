@@ -27,4 +27,4 @@ def contains(search):
     return sorted(list(set(matches)))
 
 for arg in sys.argv[1:]:
-    print "%s-%s" % (arg, contains(arg))
+    print "%s %s" % (arg, contains(arg))
